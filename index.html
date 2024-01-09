@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .v1{
+            max-width: 100vw;
+            min-height: 100vh;
+           background-image:url(https://storage.googleapis.com/cloudaio/images/hotel/153dccaf-fd1e-434a-847b-5cc58a296c3a/13089/sjuxr-casa-grande-8034-hor-wide.jpg);
+            background-size:100vw 99.9vh;
+           background-repeat: no-repeat;
+           padding-top:10px;
+           padding-bottom:5px;
+        }
+        html,body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box ;
+        }
+        .body{
+            min-height:100vh;
+            max-width:100vw;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .all{
+            display: flex;
+            flex-direction: row;
+            flex-wrap:nowrap;
+            align-items:center;
+            gap:15px;
+            float:right;
+            margin-right:5px;
+            background-color: rgb(82, 117, 199,o.5);
+            color:white;
+            text-align: center;
+          }
+        h3:hover{
+            text-decoration: underline;
+        }
+        .resname{
+            font-family: cursive;
+            color: rgb(245, 231, 231);
+            
+            
+        }
+        .align{
+            position:absolute;
+            top:70%;
+            left:5%;
+        }
+        .flex{
+            display:flex;
+            flex-direction:row;
+            gap:20px;
+        }
+        .resname1{
+            width:15vw;
+            height:20vh;
+            background-color:rgba(255, 255, 255, 0.306);
+            box-shadow: 3px 3px 3px;
+          }
+          .slogan{
+            text-align: center;
+          }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="v1">
+          <div class="all">
+                <div>
+                  <h3>HOME</h3>
+                </div>
+                <div>
+                  <h3>ABOUT</h3>
+                </div>
+                <div>
+                  <h3>CONTACT</h3>
+                </div>
+                <div>
+                    <h3>HELP</h3>
+                </div>
+                <div>
+                    <i class="fa fa-bars"></i>
+                </div>
+          </div>
+               <div class="resname">
+                  <center><h1 style="color: white;">Golden Gate Resort</h1></center>
+               <center> <h4 style="color: white;">Hotel & Resort</h4></center>
+               </div>
+            <div class="align">
+               <div class="flex">
+                   <button class="resname1">
+                       <div style="font-size:20px;">Check - In - Date</div>
+                       <div><input type="date"></input></div>
+                   </button>
+                    <button class="resname1">
+                       <div style="font-size:20px;">Check -out- Date</div>
+                       <div><input type="date"></input></div>
+                  </button>
+                   <button class="resname1">
+                       <div style="font-size:20px;">Rooms</div>
+                        <div>
+                            <select name="suit room" id="">
+                              <option value="">single bed room</option>
+                              <option value="">double bed room</option>
+                               <option value="">suit bed room</option>
+                            </select>
+                        </div>
+                   </button>
+                  <button class="resname1">
+                  <div style="font-size:20px;">Adults</div>
+                    <div>
+                        <select name="Adult" id="">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                             <option value="">3 or 4</option>
+                          </select>
+                    </div>
+                  </button>
+                  <button class="resname1">
+                    <div style="font-size:20px;">Check Availability</div>
+                      <div>Best Price Quarentined</div>
+                      </div>
+                    </button>
+
+                </div>
+             </div>
+        </div>
+    </div>
+</body>
+</html>
